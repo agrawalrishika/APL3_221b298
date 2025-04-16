@@ -1,0 +1,8 @@
+DOCKER COMMAND -->Docker pull hello-world
+	       -->Docker run hello-world 
+	       -->Docker run it ubantu
+               -->Exit
+               -->Docker stop <id>
+NETWORK --> Docker network ls
+        --> docker network create mongo network
+	--> docker rub -d -p  27017:27017  --name mongo --network mongo --network -e MONGO_INITDB_ROOT_USERNAMEadmin -e MONGO_INITDB_ROOT_PASSWORDadminmongo
